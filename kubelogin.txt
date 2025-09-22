@@ -7,6 +7,7 @@ clusters:
 contexts:
 - context:
     cluster: kubernetes-cluster.us-east-1.eksctl.io
+    namespace: devsecops
     user: i-06796c481409bff93@kubernetes-cluster.us-east-1.eksctl.io
   name: i-06796c481409bff93@kubernetes-cluster.us-east-1.eksctl.io
 current-context: i-06796c481409bff93@kubernetes-cluster.us-east-1.eksctl.io
@@ -30,4 +31,5 @@ users:
       env:
       - name: AWS_STS_REGIONAL_ENDPOINTS
         value: regional
+      interactiveMode: IfAvailable
       provideClusterInfo: false
