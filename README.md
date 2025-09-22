@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< HEAD 
 # AWS Infrastructure Creation using Terraform by A Security Guru
 
 Helpful Terraform Links:
